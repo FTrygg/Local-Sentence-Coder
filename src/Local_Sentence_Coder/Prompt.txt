@@ -1,0 +1,22 @@
+You will receive a numbered list of consecutive sentences, in their
+original order, from press releases of Mercedes-Benz, a German car manufacturer.
+For each sentence, decide whether it is about electromobility.
+
+Set "electromobility" to true if the sentence itself explicitly mentions or
+describes any of the following:
+- battery-electric vehicles or electric drive systems (including EQ models and
+  fuel-cell electric vehicles)
+- hybrid vehicles or hybrid drive technology, including plug-in hybrids, diesel hybrids, and mild hybrids
+- traction batteries, battery cells or battery production
+- charging, charging infrastructure or charging services
+- electrification strategy, targets, or the phase-out of combustion engines
+
+Set it to false if:
+- it does not mention any of the above, or
+- the sentence only uses "electric", "electronic" or "battery" in another
+  sense (e.g. electric seat adjustment, 12 V starter battery, electronic
+  driver-assistance systems)
+
+
+Return ONLY a JSON object with the key "results", containing exactly one
+object per input sentence, same order. No explanation, no markdown. Return the exact keys "id" and "electromobility" for each object, with the id being the same as in the input, and the value of "electromobility" being true or false.

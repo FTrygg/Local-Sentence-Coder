@@ -1,0 +1,9 @@
+{
+  "codescheme": "electromobility",
+  "examples": [
+    {"sentence" : "The EQS offers a range of up to 770 km.", "flag" : "true"},
+    {"sentence" : "The seats are electrically adjustable and heated.", "flag" : "false"},
+    {"sentence" : "The plug-in hybrid can drive up to 100 km on electric power alone.", "flag" : "true"},
+    {"sentence" : "The new interior was designed in Sindelfingen.", "flag" : "false"}
+  ]
+}
